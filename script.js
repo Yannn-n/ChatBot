@@ -16,7 +16,7 @@ async function kirim() {
       {
         method: "POST",
         headers: {
-          "Authorization": "Bearer hf_TOKEN_KAMU",
+          "Authorization": "Bearer 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",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
