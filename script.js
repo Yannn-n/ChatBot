@@ -9,7 +9,7 @@ async function kirim() {
   input.value = "";
 
   const response = await fetch(
-    "https://api-inference.huggingface.co/models/meta-llama/Llama-3.2-3B-Instruct",
+    "https://api-inference.huggingface.co/models/gpt2",
     {
       method: "POST",
       headers: {
